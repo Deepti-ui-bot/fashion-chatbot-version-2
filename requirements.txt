@@ -1,17 +1,25 @@
-Final requirements.txt for Your Project
-Write this in your requirements.txt file:
+This is the final requirements.txt for Your Project:
 
+-----------------------------------------------------------------------------------
 
-flask==2.2.3
-pandas==1.5.3
+External librarires that we will need:
+1) flask==2.2.3
+2) pandas==1.5.3
+
+------------------------------------------------------------------------------------
+
 Why Specific Versions?
 Specifying versions ensures consistency. Using == locks the project to a specific version to avoid breaking changes in newer versions of the libraries.
 You can check your currently installed versions with:
+
 pip freeze
+
 This will show all installed dependencies and their versions.
 
+--------------------------------------------------------------------------------------
 
 Instructions
 Save the above two lines in a file named requirements.txt.
 Use the following command to set up the environment in a new machine:
+
 pip install -r requirements.txt
