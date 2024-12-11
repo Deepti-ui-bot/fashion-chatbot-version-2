@@ -16,6 +16,10 @@ This version improves upon the original by introducing the following features:
 - Improved Dataset Structure: Uses a clean and organized `outfits.csv` file for fashion suggestions.
 - Simple and efficient when more responses are to be added directly to the CSV file.
 
+## Output
+<img width="1117" alt="image" src="https://github.com/user-attachments/assets/679488c2-ab58-416f-8f40-9a5a519cc135">
+
+
 ## How to Use
 1. Clone the repository:
 	git clone https://github.com/Deepti-ui-bot/fashion-chatbot-version-2.git
@@ -27,12 +31,9 @@ This version improves upon the original by introducing the following features:
 	python app.py
 
 ## Files and Folders
-app.py: Main chatbot script.
-data/outfits.csv: Database of fashion suggestions.
-requirements.txt: List of Python dependencies.
-
-## Contributions
-Contributions are welcome! Please fork the repository and submit a pull request.
+- *app.py* : Main chatbot script.
+- *data/outfits.csv* : Database of fashion suggestions.
+- *requirements.txt* : List of Python dependencies.
 
 ## License
 This project is open-source. Feel free to use it for learning purposes.
